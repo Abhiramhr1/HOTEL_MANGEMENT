@@ -123,26 +123,6 @@
 } */
 /* login button css end*/
 /*navgation bar css end*/
-/*text on video css start*/
-.video-container {
-  position: relative;
-}
-.overlay-desc {
-  background: rgba(0, 0, 0, 0);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: last baseline;
-  justify-content: center;
-  font-family: "Courier New";
-  color: wheat;
-}
-
-/*text on video css end*/
-
 img {
   vertical-align: middle;
 }

@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/images/logo.jpg" />
     <link rel="stylesheet" href="css_index.css" />
-    <style>
-      @import url('https://fonts.cdnfonts.com/css/marcellus');
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet'>
     <title>Boundless Ascent Resort</title>
   </head>
   <body>
-    <!-- navigation bar start-->
-    <header>
-      <div class="topnav">
-        <a href="/login.html" class="loginparent"
-          ><button id="loginbutton">Log in</button></a>
-        <a style="text-decoration: none" id="nav">Contact</a>
-        <a style="text-decoration: none" id="nav">About Us</a>
-        <a style="text-decoration: none" id="nav">Accommodation</a>
-        <a style="text-decoration: none" id="nav">Home</a>
-        <img src="./images/logo1.jpg" alt="logo" />
-        <p id="head1">Boundless Ascent Resort</p>
+      <div class="topnav" width="100%">
+        <!--videowith txt in video start-->
+        <video class="video" width="100%" play loop muted plays-inline>
+        <source src="./video/head1.1.mp4" type="video/mp4" />
+        </video>
+        <!--video with txt in video end-->
+        <!-- navigation bar start-->
+        <nav class="nav">
+          <div>
+            <img src="./images/logo.jpg" class="logo" alt="logo" />
+            <p id="head1">Boundless Ascent Resort</p>
+          </div>
+          <ul>
+            <li><a style="text-decoration: none" id="nav1">Home</a></li>
+            <li><a style="text-decoration: none" id="nav1">Accommodation</a></li>
+            <li><a style="text-decoration: none" id="nav1">About Us</a></li>
+            <li><a style="text-decoration: none" id="nav1">Contact</a></li>
+            <li><a href="/login.html" class="login"
+              ><button class="loginbutton">Log in</button></a></li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    
     <!-- navigation bar end-->
-    <!--videowith txt in video start-->
-    <video width="100%" muted autoplay loop>
-      <source src="./video/head1.1.mp4" type="video/mp4" />
-    </video>
-    <!--video with txt in video end-->
-    <!--conent section start-->
+  
+    <!-- conent section start
     <section>
       <div class="container">
         <div class="image">
@@ -50,12 +54,12 @@
         </div>
       </div>
     </section>
-    <!--conent section end-->
-    <!--fotter start-->
+    <!--conent section end
+    <!--fotter start
     <footer style="background-color: #333">
       <p style="color: white; font-size: large">Connet with us</p>
       <img src="./images/logo-facebook,insta,twitter,youtube.png" width="20%" alt="connect with us" />
-    </footer> 
+    </footer>  -->
     <!--fotter end-->
   </body>
 </html>

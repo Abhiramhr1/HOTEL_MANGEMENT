@@ -5,13 +5,13 @@
   
   color: white;
 } */
-#head1 {
+/* #head1 {
   display: inline-block;
   font-family: Brush Script MT;
   text-align:center;
   color:white;
-  font-weight:normal;
   font-size:35px;
+  text-decoration: none;
   
 }
 .topnav img{
@@ -21,8 +21,9 @@
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; 
   height: 100px;
+  float: top;
 }
 .topnav a {
   float: right;
@@ -33,15 +34,77 @@
   font-size: 17px;
   padding-top: 2.5%;
 
-}
-.topnav a:hover{
-  /* background-color: #ddd; */
+} */
+/* .topnav a:hover{
+  /* background-color: #ddd; 
   color: black;
   cursor: pointer;
+} */
+.topnav{
+  width:100%;
+  height: 100vh;
+  position:relative;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  justify-items:right;
+}
+.nav{
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  padding:5px 0%;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#head1{
+  padding-left:50px;
+  font-size:35px;
+  font-family: Brush Script MT;
+  text-decoration: none;
+}
+nav div{
+  display:flex;
+  align-items: center;
+  
+}
+nav .logo{
+  width: 60px;
+  height:60px;
 }
 
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  margin-left:40px;
+}
+nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+}
+ div .video{
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+  .video{
+    width: 100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio:16/9){
+  .video{
+    width: auto;
+    height:100%;
+  }
+}
 /*login button css start*/
-#loginbutton{
+/* #loginbutton{
   margin-top: -7.5px;
   font-family: Arial Narrow;
   float: right;
@@ -82,10 +145,15 @@
 #loginbutton:hover{
   background-color: #3c4043;
   color: white;
-}
+} */
 
-.video-container {
+/* .video-container {
   position: relative;
+}
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .overlay-desc {
   background: rgba(0, 0, 0, 0);
@@ -102,18 +170,18 @@
 }
 * {
   box-sizing: border-box;
-}
-body {
-   font-family: Marcellus,sans-serif; /*Verdana, sans-serif; */
+} */
+/* /* body {
+  font-family: 'Marcellus'; /*Verdana, sans-serif; 
   margin: 0;
 }
 
 img {
   vertical-align: middle;
 }
-/* login button css end*/
-/*navgation bar css end*/
-/* content start */
+/* login button css end
+/*navgation bar css end
+/* content start 
 .container {
   display: flex;
   align-items: center;
@@ -131,5 +199,5 @@ img {
 .text {
   font-size: 20px;
   padding-left: 20px;
-}
-/* content end */
+} 
+content end */

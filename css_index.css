@@ -21,7 +21,7 @@
 }
 .topnav {
   overflow: hidden;
-  /* background-color: #333; 
+ background-color: #333; 
   height: 100px;
   float: top;
 }
@@ -35,11 +35,9 @@
   padding-top: 2.5%;
 
 } */
-/* .topnav a:hover{
-  /* background-color: #ddd; 
-  color: black;
+.topnav a:hover{
   cursor: pointer;
-} */
+}
 .topnav{
   width:100%;
   height: 100vh;
@@ -60,25 +58,33 @@
   justify-content: space-evenly;
 }
 #head1{
-  padding-left:50px;
+  /* padding-left:50px; */
   font-size:35px;
-  font-family: Brush Script MT;
+  font-family: 'Marcellus';
   text-decoration: none;
+  margin-left: 50px;
+  color:white;
 }
-nav div{
+nav .name{
   display:flex;
   align-items: center;
-  
+}
+nav:first-child{
+  margin-left:2rem;
+  margin-right:auto;
 }
 nav .logo{
   width: 60px;
   height:60px;
 }
-
+nav ul{
+  align-items: center;
+}
 nav ul li{
   list-style: none;
   display:inline-block;
   margin-left:40px;
+  color:white;
 }
 nav ul li a{
   text-decoration:none;
@@ -104,9 +110,10 @@ nav ul li a{
   }
 }
 /*login button css start*/
-/* #loginbutton{
+#loginbutton{
+  margin-left:40px;
   margin-top: -7.5px;
-  font-family: Arial Narrow;
+  font-family: 'Marcellus';
   float: right;
   align-items: center;
   appearance: none;
@@ -129,7 +136,7 @@ nav ul li a{
   line-height: normal;
   max-width: 100%;
   overflow: visible;
-  padding: 0px 24px 2px;
+  padding: 0px 20px 2px;
   position: relative;
   text-align: right;
   text-transform: none;
@@ -145,7 +152,7 @@ nav ul li a{
 #loginbutton:hover{
   background-color: #3c4043;
   color: white;
-} */
+}
 
 /* .video-container {
   position: relative;

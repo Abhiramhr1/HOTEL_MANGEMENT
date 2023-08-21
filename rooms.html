@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Booking</title>
+    <style>
+      .room-details .room-row {
+        margin-bottom: 1rem;
+        display: flex;
+      }
+
+      .room-details .room {
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .room-details {
+        max-width: 100%;
+        display: block;
+      }
+      .room-details .room-info {
+        padding: 1rem;
+      }
+      p{
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="background-color: #333; color: white; text-align: center">
+        Room Booking System
+      </h1>
+    </header>
+    <main>
+      <section class="room-details"style="display:center;:column;justify-content:center;">
+        <h2>Room Details</h2>
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image">
+              <img
+                src="./assets/images/room4.jpg"
+                alt="Single Room"
+                width="500px"
+              />
+            </div>
+            <div class="room-info">
+              <h3>Single Room</h3>
+              <p>Upto :2 Guests</p>
+              <p>Cozy and comfortable single room with a single bed.</p>
+              <p>Price: $100 per night</p>
+              <a href="/booking.html" class="booknow">
+              <button>book now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image">
+              <img
+                src="./assets/images/image3.avif"
+                alt="Double Room"
+                width="500px"
+              />
+            </div>
+            <div class="room-info">
+              <h3>Double Room</h3>
+              <p>Upto :3 Guests</p>
+              <p>Spacious double room with a queen-size bed and workspace.</p>
+              <p>Price: $150 per night</p>
+              <a href="/booking.html" class="booknow">
+              <button>book now</button>
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image">
+              <img
+                src="./assets/images/room2.avif"
+                alt="Double Room"
+                width="500px"
+              />
+            </div>
+            <div class="room-info">
+              <h3>Triple Room</h3>
+              <p>Upto :5 Guests</p>
+              <p>Spacious double room with a queen-size bed and workspace.</p>
+              <p>Price: $250 per night</p>
+              <a href="/booking.html" class="booknow">
+              <button>book now</button>
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image">
+              <img
+                src="./assets/images/room1.avif"
+                alt="Double Room"
+                width="500px"
+              />
+            </div>
+            <div class="room-info">
+
+              <h3>Triple Room</h3>
+              <p>Upto :10 Guests</p>
+              <p>Spacious double room with a queen-size and King-size bed and workspace.</p><p>Infinity pool access</p>
+              <p>Price: $550 per night</p>
+              <a href="/booking.html" class="booknow">
+              <button>book now</button>
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer style="background-color: #333; color: white; text-align: center">
+      <p>&copy; 2023 Room Booking System. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,16 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css_login.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Sign Up/Signin </title>
+  <link rel="stylesheet" href="/assets/css_login.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html"><button id="homebutton">Boundless Ascent Resort</button></a>
-    </header>
-    <form>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">User Log in</a></li>
+          <li><a href="#login"  role="tab" data-toggle="tab">Admin Log in</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> Sign In </h2>
+            <form action="/"method="post" id="signup">
+              <label> Email ID:</label>
+              <div class="form-group">
+                
+                <input type="email" name="email"class="form-control" id="email" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <label> Password:</label>
+              <div class="form-group">
+                
+                <input type="password" name="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <a href="/rooms.html"class="login">
+                  <button type="submit" class="btn btn-larger btn-block">
+                    Log In
+                  </button>
+                </a>
+              </div>
+            </form>
+            <a href="/register.html">
+              <button class="btn btn-larger btn-block">
+                Register
+              </button>
+            </a>
+          </div>
+          <div class="tab-pane fade in" id="login">
+            <h2 class="text-uppercase text-center"> Log in</h2>
+            <form action="/"method="post"id="login">
+              <label> User Id:</label>
+              <div class="form-group">
+                <input type="email" name="adminid" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <label> Password: </label>
+              <div class="form-group">
+                <input type="password" name="password"class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <a href="/rooms.html"class="login">
+                  <button type="submit" class="btn btn-larger btn-block">
+                    Log in
+                  </button>
+                </a>
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<script  src="./script_login.js"></script>
+</body>
+</html>
+
+
+<!-- <form>
         <fieldset style="width: 50%; position: absolute;">
             <legend>Log in:</legend>
             <label for="email"><LEFT>Email address:</label><br>
@@ -20,6 +91,4 @@
             <a style="text-align: right;" href="/forgoten_pass.html">Forgoten Password</a><br>
             <button style="border: none;" type="submit">Submit</button>|<a href="/register.html">Register</a>
         </fieldset>
-    </form> 
-</body>
-</html>
+    </form>  -->

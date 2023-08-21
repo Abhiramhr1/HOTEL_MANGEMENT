@@ -1,0 +1,337 @@
+
+/*navbar start*/
+.topnav a:hover{
+  cursor: pointer;
+  color:#f2c55b;
+}
+.topnav{
+  width:100%;
+  height: 100vh;
+  position:relative;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  justify-items:right;
+}
+.nav{
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  padding:5px 0%;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+#head{
+  /* padding-left:50px; */
+  font-size:35px;
+  font-family:Brush Script MT;/* 'Marcellus'; */
+  text-decoration: none;
+  margin-left: 50px;
+  color:#ffffff;
+  z-index:1;
+  opacity: 1;
+  text-shadow: 1px 1px 3px black;
+}
+nav .name{
+  display:flex;
+  align-items: center;
+}
+nav:first-child{
+  margin-left:2rem;
+  margin-right:auto;
+}
+nav  ul li a:visited{
+  color:white;
+}
+nav ul li a:link{
+  color:white;
+}
+nav .logo{
+  width: 60px;
+  height:60px;
+}
+nav ul{
+  align-items: center;
+  opacity: 10;
+  z-index:1;
+}
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  margin-left:40px;
+  color:white;
+}
+nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+  /* outline-color: black; */
+  outline-width: 100px;
+  text-shadow: 0.2px 0.2px 3px black;
+
+}
+/*login button css start*/
+#loginbutton{
+  margin-left:40px;
+  margin-top: -7.5px;
+  font-family: 'Marcellus';
+  float: right;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 0px 20px 2px;
+  position: relative;
+  text-align: right;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+#loginbutton:hover{
+  background-color: #A9976D;
+  color: white;
+}
+/* login button end */
+
+
+div .video{
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-aspect-ratio:16/9){
+  .video{
+    width: 100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio:16/9){
+  .video{
+    width: auto;
+    height:100%;
+  }
+}
+
+
+.video-container {
+  position: relative;
+}
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.overlay-desc {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  font-family: 'Marcellus';
+  color: wheat;
+}
+.container,.revcontainer,.containerelev{
+  padding-top:120px;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content: center;
+  
+}
+span{
+  color:#aa9767;
+}
+.container .image1 img ,.image4 img{
+  width:100%;
+}
+.container  .image1 img,.image4 img{
+  width:80%;
+  float:left;
+  position:relative;
+  padding:0% 11% 0% ;
+  min-width: 40vh;
+}
+.container .text-image{
+  margin-left:10px;
+  margin-right: 0;
+}
+.container .text-image .head1,.head2,.head4,.head5,.containerelev .head6{
+  color:#aa9767;
+  font-family: 'Marcellus';
+  font-size: 35px;
+  letter-spacing:2px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.container .text-image p,.text p{
+  font-family: 'Marcellus';
+  font-size:16px;
+  padding-right: 35%;
+  color:#404040;
+  font-weight: 500;
+}
+.container .image2 img{
+
+  width:502px;
+  height:282px;
+  
+}
+.container .image2{
+  float: right;
+  padding-right:5%;
+}
+.container .head2 h1{
+  font-size: 35px;
+  padding-left:5%;
+  font-weight:400;
+}
+.revcontainer .image3 img{
+  width: 855px;
+  height:480px;
+  position:relative;
+  /* padding:0% 7% 0% ; */
+  min-width: 40vh;
+  margin-right:200px;
+}
+.revcontainer .text3 p{
+  font-family: 'Marcellus';
+  font-size:16px;
+  margin-left: 20%;
+  color:#404040;
+  font-weight: 500;
+  padding-right:10%;
+
+}
+.container .image5 img{
+  /* width:300px;
+  height:100vh; */
+  width:75%;
+  margin-left:0%;
+  min-width:500px;
+}
+@media screen and (max-width:1000px){
+  .container .text-image p{
+    font-size:15px;
+    padding-left: 46px;
+  }
+  .container .text-image .head1,.head4{
+    font-size:35px;
+    padding-top:10px;
+    padding-left:46px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .image1{
+    width:420px;
+    height:230px;
+  }
+  .revcontainer{
+    width:50%;
+  }
+}
+@media screen and (max-width:1300px){
+  .revcontainer .text3{
+    margin-right:50%;
+  }
+  .revcontainer .image3 img{
+    margin-left:5%;
+  }
+  .revcontainer{
+    flex-direction: column;
+  }
+}
+.containerelev .image6 img{
+  margin-left:30px;
+  margin-top:55%;
+  width: 450px;
+  height:792px
+  
+}
+.containerelev .image7 img{
+  margin-left:15px;
+  width:450px;
+  height: 814.5px;
+  margin-top:0%;
+}
+.containerelev{
+  justify-content:space-between;
+  /* justify-content: center; */
+  
+}
+.containerelev .image6,.image7,.text{
+  width:27%;
+  margin-right:20px;
+}
+@media screen and (max-width:1343px)
+{
+  .containerelev .image6 img{
+    margin-left:30px;
+    margin-top:55%;
+    width: 300px;
+    height:528px
+    
+  }
+  .containerelev .image7 img{
+    margin-left:15px;
+    width:300px;
+    height: 543px;
+    margin-top:0%;
+  }
+
+}
+@media screen and (max-width:950px)
+{
+  .containerelev .image6 img{
+    margin-left:30px;
+    margin-top:55%;
+    width: 100px;
+    height:176px
+    
+  }
+  .containerelev .image7 img{
+    margin-left:15px;
+    width:100px;
+    height: 181px;
+    margin-top:0%;
+  }
+  .containerelev .text p{
+    font-size:10px;
+  }
+  .containerelev .text h2{
+    font-size: 20px;
+  }
+}

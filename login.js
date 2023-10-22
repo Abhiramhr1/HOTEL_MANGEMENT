@@ -100,5 +100,5 @@ app.get("/rooms",function(req,res){
     res.sendFile(__dirname+"/rooms.html")
 })
 //set app port
-app.listen(2000);
+app.listen(1000);
 
